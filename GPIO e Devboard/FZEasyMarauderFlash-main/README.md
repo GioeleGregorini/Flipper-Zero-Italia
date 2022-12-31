@@ -1,11 +1,11 @@
 # Easy Flipper Zero Marauder Flash
-This is for easily flashing Marauder on an ESP32 or WiFi Devboard for a Flipper Zero!
-![Screenshot of EasyInstall](https://raw.githubusercontent.com/SkeletonMan03/FZEasyMarauderFlash/main/EasyInstall_Screenshot.png)
+Questo tutoria è per installare facilmente Marauder su un ESP32 o WiFi Devboard per un Flipper Zero!
+![ Schermata di EasyInstall](https://raw.githubusercontent.com/SkeletonMan03/FZEasyMarauderFlash/main/EasyInstall_Screenshot.png)
 
 ## Utenti di Windows:
 Hai due prerequisiti.
 È necessario installare [Git per Windows da qui](https://gitforwindows.org/).
-Devi anch installare il [driver da qui](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers? Tab=downloads) affinché il tuo esp32 venga riconosciuto.
+Devi anche installare il [driver da qui](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers? Tab=downloads) affinché il tuo esp32 venga riconosciuto.
 
 ## Ora è semplice installare o aggiornare Marauder su Linux, Mac OS X o Windows.
 # Come fare:
