@@ -19,11 +19,14 @@ Devi anche installare il [driver da qui](https://www.silabs.com/developers/usb-t
 
 ## Spiegazione più approfondita:
 
+Per posizionarsi con il terminale in una cartella, è possibile utilizzare il comando "cd" (che significa "change directory", ovvero "cambia directory" in italiano). Ad esempio, se si vuole entrare nella cartella "documents" nella directory corrente, è possibile utilizzare il comando "cd documents". Se si vuole invece entrare in una sottocartella della cartella "documents", ad esempio "project", si può utilizzare il comando "cd documents/project".
+
+È inoltre possibile utilizzare il comando "cd .." per tornare alla directory superiore o alla cartella padre della directory corrente. Ad esempio, se si è nella cartella "project" all'interno della cartella "documents", utilizzando il comando "cd .." si tornerà alla cartella "documents".
 "pip3" è un comando del terminale che viene utilizzato per installare pacchetti Python. "Requirements.txt" è un file che elenca le dipendenze o i pacchetti Python che sono necessari per far funzionare qualche altro programma. Eseguendo il comando "pip3 install -r requirements.txt", si stanno installando tutti i pacchetti Python elencati nel file "requirements.txt" nel sistema.
 
 Collegare la devboards o la scheda ESP32 tramite USB al computer. La devboards o la scheda ESP32 sono schede di sviluppo utilizzate per creare progetti basati su microcontrollori.
 
-Tenere premuto il pulsante BOOT sul modulo. Il pulsante BOOT è un pulsante presente sulla scheda di sviluppo che viene utilizzato per avviare il sistema o per eseguire determinate operazioni durante il processo di avvio.
+Tenere premuto il pulsante BOOT sul modulo. Il pulsante BOOT è un pulsante presente sulla scheda di sviluppo che viene utilizzato per avviare il sistema o per eseguire determinate operazioni durante il processo di avvio, in questo caso imposta l'esp32 in modalità download, modalità che permette l'installazione di un nuovo firmware.
 
 Eseguire il comando "python3 EasyInstall.py". "Python3" è un interprette di codice sorgente Python che viene utilizzato per eseguire il programma "EasyInstall.py". "EasyInstall.py" è il nome di un programma scritto in Python che probabilmente viene utilizzato per configurare o installare qualcosa sulla scheda di sviluppo.
 
