@@ -5,6 +5,7 @@ Questo tutorial è per installare facilmente Marauder su un ESP32 o WiFi Devboar
 ## Utenti di Windows:
 Hai due prerequisiti.
 È necessario installare [Git per Windows da qui](https://gitforwindows.org/).
+
 Devi anche installare il [driver da qui](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?Tab=downloads) affinché il tuo esp32 venga riconosciuto.
 
 ## Ora è semplice installare o aggiornare Marauder su Linux, Mac OS X o Windows.
