@@ -1,5 +1,5 @@
 # Easy Flipper Zero Marauder Flash
-Questo tutoria è per installare facilmente Marauder su un ESP32 o WiFi Devboard per un Flipper Zero!
+Questo tutorial è per installare facilmente Marauder su un ESP32 o WiFi Devboard per un Flipper Zero!
 ![ Schermata di EasyInstall](https://raw.githubusercontent.com/SkeletonMan03/FZEasyMarauderFlash/main/EasyInstall_Screenshot.png)
 
 ## Utenti di Windows:
