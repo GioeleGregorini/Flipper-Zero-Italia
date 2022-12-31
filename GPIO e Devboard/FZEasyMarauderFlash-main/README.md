@@ -48,18 +48,3 @@ GND -> GND
 * Add more chip compatibility.
 * Fix Windows bug where files cannot be deleted in order to be updated
 * Attempt to accommodate 3rd-party knock-off chips that are not from Espressif
-
-## Acknowledgements:
-Disclaimer: Includes Acknowledgements from the above linked repo from UberGuidoz as this wouldn't exist without the original project
-* [justcallmekoko](https://github.com/justcallmekoko/ESP32Marauder) for the AWESOME work in developing Marauder and porting it to the Flipper.
-* [0xchocolate](https://github.com/0xchocolate) for the Marauder companion plugin (now in [Unleashed](https://github.com/Eng1n33r/flipperzero-firmware) and [RogueMaster](https://github.com/RogueMaster/flipperzero-firmware-wPlugins).)
-* [Frog](https://github.com/FroggMaster) For initial scripting under the [Wifi Pentest Tool](https://github.com/FroggMaster/ESP32-Wi-Fi-Penetration-Tool) and inspiring the idea.<br>
-* [ImprovingRigmarole](https://github.com/Improving-Rigmarole) Initial (and continued) scripting of the batch Windows Marauder flasher and lots of  testing.<br>
-* [UberGuidoZ](https://github.com/UberGuidoZ) Tweaking/Automating Frog's original, continued scripting, development, and testing.
-* [L0rd_K0nda](https://github.com/L0rdK0nda) from the Unleashed Flipper Zero Discord for testing this script for me
-* [SkeletonMan](https://github.com/SkeletonMan03) Creating this Python flasher in order to try to make a multi-os flasher since the Batch script obviously could not run on Linux or Mac OS X
-* [CorbanR](https://github.com/CorbanR) Forking and fixing instructions and adding a requirement needed for Mac OS X
-* [dchalm](https://github.com/dchalm) Forking and fixing mistakes I should have noticed. Thank you!
-* [Scorp](https://github.com/scorpion44/FZEasyMarauderFlash_ScorpBins) Compiling needed bins to be able to flash to ESP32-WROOM
-* [jacklythgoee](https://github.com/jacklythgoee) For getting a knockoff ESP32-WROOM and giving me info to be able to try to detect it so it could be flashed. 
-* [Der Skythe](https://github.com/derskythe) For fixing extra quotes I added without noticing and his awesome work on Flipper Zero Firmware
