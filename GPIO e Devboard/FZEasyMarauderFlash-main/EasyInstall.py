@@ -118,19 +118,19 @@ def choose_fw():
 
 def erase_esp32fw():
 	global serialport
-	print("Erasing firmware...")
+	print("Cancellazione del firmware...")
 	esptool.main(['-p', serialport, '-b', BR, '-c', chip, '--before', 'default_reset', '-a', 'no_reset', 'erase_region', '0x9000', '0x6000'])
-	print("Firmware erased!")
-	print("Waiting 5 seconds...")
-	time.sleep(5)
+	print("Firmware cancellato!")
+	print("Attesa di 3 secondi...")
+	time.sleep(3)
 	return
 
 def checkforesp32marauder():
-	print("Checking for Marauder releases")
+	print("Controllo delle versioni di Marauder")
 	if os.path.exists("ESP32Marauder/releases"):
-		print("Great, you have the Marauder releases folder!")
+		print("Fantastico, hai la cartella delle ultime versioni di Marauder!")
 	else:
-		print("Marauder releases folder does not exist, but that's okay, downloading them now...")
+		print("La cartella delle ultime versioni di Marauder non esiste, ma non importa, li scaricherò io per te...")
 		os.makedirs('ESP32Marauder/releases')
 		marauderapi="https://api.github.com/repos/justcallmekoko/ESP32Marauder/releases/latest"
 		response=requests.get(marauderapi)
@@ -144,39 +144,39 @@ def checkforesp32marauder():
 			open('ESP32Marauder/releases/'+filename, 'wb').write(downloadfile.content)
 	esp32marauderfwc=('ESP32Marauder/releases/esp32_marauder_v*_flipper.bin')
 	if not glob.glob(esp32marauderfwc):
-		print("No ESP32 Marauder Flipper firmware exists somehow!")
+		print("Il firmware ESP32 Marauder Flipper non esiste!")
 	global esp32marauderfw
 	for esp32marauderfw in glob.glob(esp32marauderfwc):
 		if os.path.exists(esp32marauderfw):
-			print("ESP32 Marauder firmware exists at", esp32marauderfw)
+			print("Il firmware del Marauder per es32 esiste in ", esp32marauderfw)
 	return
 
 def checkfors3bin():
 	esp32s3fwc=('ESP32Marauder/releases/esp32_marauder_v*_mutliboardS3.bin')
 	if not glob.glob(esp32s3fwc):
-		print("mutliboards3 bin does not exist!")
+		print("Il file Mutliboards3.bin non esiste!")
 	global esp32s3fw
 	for esp32s3fw in glob.glob(esp32s3fwc):
 		if os.path.exists(esp32s3fw):
-			print("ESP32-S3 firmware bin exists at", esp32s3fw)
+			print("Il file bin del firmware per ESP32 esiste in ", esp32s3fw)
 		else:
-			print("Somehow, the mutliboardS3.bin file does not exist!")
+			print("Il file Mutliboards3.bin non esiste!")
 	return
 
 def checkforoldhardwarebin():
 	espoldhardwarefwc=('ESP32Marauder/releases/esp32_marauder_v*_old_hardware.bin')
 	if not glob.glob(espoldhardwarefwc):
-		print("old_hardware bin does not exist!")
+		print("Old_hardware bin non esiste!")
 	global espoldhardwarefw
 	for espoldhardwarefw in glob.glob(espoldhardwarefwc):
 		if os.path.exists(espoldhardwarefw):
-			print("Old Hardware bin exists at", espoldhardwarefw)
+			print("Old Hardware bin esiste in ", espoldhardwarefw)
 		else:
-			print("Somehow, the old_hardware.bin file does not exist!")
+			print("Old_hardware bin non esiste!")
 	return
 
 def prereqcheck():
-	print("Checking for prerequisites...")
+	print("Controllo dei prerequisiti...")
 	checkforextrabins()
 	checkforesp32marauder()
 	checkfors3bin()
