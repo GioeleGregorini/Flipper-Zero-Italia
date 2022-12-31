@@ -18,14 +18,15 @@ Devi anche installare il [driver da qui](https://www.silabs.com/developers/usb-t
 
 
 ## Spiegazione più approfondita:
-Il passaggio 0 indica di eseguire una sola volta l'istruzione "pip3 install -r requirements.txt". "pip3" è un comando del terminale che viene utilizzato per installare pacchetti Python. "Requirements.txt" è un file che elenca le dipendenze o i pacchetti Python che sono necessari per far funzionare qualche altro programma. Eseguendo il comando "pip3 install -r requirements.txt", si stanno installando tutti i pacchetti Python elencati nel file "requirements.txt" nel sistema.
 
-Il passaggio 1 indica di collegare la devboards o la scheda ESP32 tramite USB al computer. La devboards o la scheda ESP32 sono schede di sviluppo utilizzate per creare progetti basati su microcontrollori.
+"pip3" è un comando del terminale che viene utilizzato per installare pacchetti Python. "Requirements.txt" è un file che elenca le dipendenze o i pacchetti Python che sono necessari per far funzionare qualche altro programma. Eseguendo il comando "pip3 install -r requirements.txt", si stanno installando tutti i pacchetti Python elencati nel file "requirements.txt" nel sistema.
 
-Il passaggio 2 indica di tenere premuto il pulsante BOOT sul modulo. Il pulsante BOOT è un pulsante presente sulla scheda di sviluppo che viene utilizzato per avviare il sistema o per eseguire determinate operazioni durante il processo di avvio.
+Collegare la devboards o la scheda ESP32 tramite USB al computer. La devboards o la scheda ESP32 sono schede di sviluppo utilizzate per creare progetti basati su microcontrollori.
 
-Il passaggio 3 indica di eseguire il comando "python3 EasyInstall.py". "Python3" è un interprette di codice sorgente Python che viene utilizzato per eseguire il programma "EasyInstall.py". "EasyInstall.py" è il nome di un programma scritto in Python che probabilmente viene utilizzato per configurare o installare qualcosa sulla scheda di sviluppo.
+Tenere premuto il pulsante BOOT sul modulo. Il pulsante BOOT è un pulsante presente sulla scheda di sviluppo che viene utilizzato per avviare il sistema o per eseguire determinate operazioni durante il processo di avvio.
 
-Il passaggio 4 indica di selezionare un'opzione tra le sei disponibili utilizzando il programma "EasyInstall.py". Il programma "EasyInstall.py" probabilmente mostra un menu con diverse opzioni che l'utente può scegliere per configurare o installare qualcosa sulla scheda di sviluppo.
+Eseguire il comando "python3 EasyInstall.py". "Python3" è un interprette di codice sorgente Python che viene utilizzato per eseguire il programma "EasyInstall.py". "EasyInstall.py" è il nome di un programma scritto in Python che probabilmente viene utilizzato per configurare o installare qualcosa sulla scheda di sviluppo.
 
-Il passaggio 5 è una nota importante che avverte che potrebbe essere necessario eseguire il programma "EasyInstall.py" con il comando "sudo" o come amministratore in Windows. "Sudo" è un comando del terminale che viene utilizzato per eseguire un altro comando con i privilegi di amministratore. In Windows, per eseguire un programma come amministratore, è necessario fare clic con il pulsante destro del mouse sul programma e selezionare "Esegui come amministratore" dal menu contestuale. Ciò è necessario in alcuni casi poiché alcune operazioni possono richiedere privilegi di amministratore per essere eseguite correttamente.
+Selezionare un'opzione tra le sei disponibili utilizzando il programma "EasyInstall.py". Il programma "EasyInstall.py" probabilmente mostra un menu con diverse opzioni che l'utente può scegliere per configurare o installare qualcosa sulla scheda di sviluppo.
+
+Potrebbe essere necessario eseguire il programma "EasyInstall.py" con il comando "sudo" o come amministratore in Windows. "Sudo" è un comando del terminale che viene utilizzato per eseguire un altro comando con i privilegi di amministratore. In Windows, per eseguire un programma come amministratore, è necessario fare clic con il pulsante destro del mouse sul programma e selezionare "Esegui come amministratore" dal menu contestuale. Ciò è necessario in alcuni casi poiché alcune operazioni possono richiedere privilegi di amministratore per essere eseguite correttamente.
