@@ -56,10 +56,10 @@ def checkforextrabins():
 	global scorpbins
 	scorpbins=(extraesp32bins+"/Marauder/WROOM")
 	if os.path.exists(extraesp32bins):
-		print("The extra ESP32 bins folder exists!")
+		print("La cartella Extra_ESP32_bins esiste!")
 	else:
-		print("The extra ESP32 bins folder does not exist!")
-		print("That's okay, downloading them now...")
+		print("La cartella Extra_ESP32_bins non esiste!")
+		print("Non importa, la scaricherò io per te....")
 		Repo.clone_from(extraesp32binsrepo, extraesp32bins)
 	return
 
@@ -130,7 +130,7 @@ def checkforesp32marauder():
 	if os.path.exists("ESP32Marauder/releases"):
 		print("Fantastico, hai la cartella delle ultime versioni di Marauder!")
 	else:
-		print("La cartella delle ultime versioni di Marauder non esiste, ma non importa, li scaricherò io per te...")
+		print("La cartella delle ultime versioni di Marauder non esiste, ma non importa, la scaricherò io per te...")
 		os.makedirs('ESP32Marauder/releases')
 		marauderapi="https://api.github.com/repos/justcallmekoko/ESP32Marauder/releases/latest"
 		response=requests.get(marauderapi)
