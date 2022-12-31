@@ -8,7 +8,7 @@ Devi anche installare il [driver da qui](https://www.silabs.com/developers/usb-t
 ## Se hai Macos o Linux puoi iniziare subito a seguire la guida:
 # Come fare:
 * Il passaggio 0 deve essere eseguito solo una volta
-0) eseguire `pip3 install -r requirements.txt`.
+0) dopo essersi posizionati con il terminale nella cartella dove sono stati installati i file, eseguire `pip3 install -r requirements.txt`.
 1) Collegare la devboards o la scheda ESP32 tramite USB.
 2) Tenere premuto il pulsante `BOOT` sul modulo. 
 3) eseguire `python3 EasyInstall.py`.
