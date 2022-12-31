@@ -1,6 +1,6 @@
 # Easy Flipper Zero Marauder Flash
 
-Questo script Python è stato progettato per aiutare gli utenti a installare o aggiornare il firmware su un dispositivo ESP32, che è un microcontrollore basato sulla famiglia di microprocessori Xtensa di Espressif Systems. Lo script esegue diverse azioni per preparare il dispositivo ESP32 per la ricezione del nuovo firmware, come la ricerca di una porta seriale per il dispositivo, la scelta del firmware da installare e l'utilizzo di uno strumento chiamato "esptool" per installare effettivamente il firmware. Lo script offre anche un menu di scelta all'utente per installare o aggiornare diversi tipi di firmware su differenti varianti di chip ESP32.vboard per un Flipper Zero!
+Questo script Python è stato progettato per aiutare gli utenti a installare o aggiornare il firmware su un dispositivo ESP32, un microcontrollore basato sulla famiglia di microprocessori Xtensa di Espressif Systems. Lo script esegue diverse azioni per preparare il dispositivo ESP32 alla ricezione del nuovo firmware, come la ricerca di una porta seriale per il dispositivo, la scelta del firmware da installare e l'utilizzo di uno strumento chiamato "esptool" per installare effettivamente il firmware. Lo script offre anche un menu di scelta all'utente per installare o aggiornare diversi tipi di firmware su differenti varianti di chip ESP32.vboard per un Flipper Zero!
 
 ## Se hai Windows hai due prerequisiti:
 È necessario installare [Git per Windows da qui](https://gitforwindows.org/).
