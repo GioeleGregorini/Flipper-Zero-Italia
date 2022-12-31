@@ -8,7 +8,6 @@ Hai due prerequisiti.
 
 Devi anche installare il [driver da qui](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?Tab=downloads) affinché il tuo esp32 venga riconosciuto.
 
-## Ora è semplice installare o aggiornare Marauder su Linux, Mac OS X o Windows.
 # Come fare:
 * Il passaggio 0 deve essere eseguito solo una volta
 0) eseguire `pip3 install -r requirements.txt`.
