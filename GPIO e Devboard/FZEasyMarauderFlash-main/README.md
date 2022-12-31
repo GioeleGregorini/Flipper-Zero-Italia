@@ -12,6 +12,6 @@ Devi anche installare il [driver da qui](https://www.silabs.com/developers/usb-t
 1) Collegare la devboards o la scheda ESP32 tramite USB.
 2) Tenere premuto il pulsante `BOOT` sul modulo. 
 3) eseguire `python3 EasyInstall.py`.
-4) Selezionare l'opzione di ciò che si desidera fare.
+4) Selezionare l'opzione di ciò che si desidera fare (il programma ti aiuta a capire che tipo di modulo hai, verra scritto in blu dopo che avvi una delle 6 possibilità di installazione).
 
 * Nota importante: potrebbe essere necessario eseguire questo script con `sudo` o come amministratore in Windows
