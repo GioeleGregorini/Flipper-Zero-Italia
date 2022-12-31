@@ -13,21 +13,14 @@ from colorama import Fore, Back, Style
 
 OPENASCII=Fore.GREEN+'''
 #########################################
-#    Marauder Flasher Script		#
-#    Python edition by SkeletonMan	#
-#    based off of a Windows based	#
-#    script by Frog, UberGuidoz,	#
-#    and ImprovingRigamarole		#
-#					#
-#    Thanks to everyone who has done	#
-#    testing on various chips for me	#
-#    Thanks to Scorp for compiling	#
-#    needed bins for the ESP32-WROOM	#
+#    Questo script vi aiuterà 		#
+#    ad installare o aggiornare		#
+#    il vostro esp32 !!   		#
 #########################################
 '''+Style.RESET_ALL
 
 print(OPENASCII)
-print("Make sure your ESP32 or WiFi devboard is plugged in!")
+print("Assicurati che il tuo devboard ESP32 o WiFi sia collegato!")
 BR=str("115200")
 
 def checkforserialport():
@@ -42,17 +35,17 @@ def checkforserialport():
 				serialport=port.device
 				device=vid
 	if serialport=='':
-		print(Fore.RED+"No ESP32 device was detected!"+Style.RESET_ALL)
-		print(Fore.RED+"Please plug in a Flipper WiFi devboard or an ESP32 chip and try again"+Style.RESET_ALL)
+		print(Fore.RED+"Non è stato rilevato alcun dispositivo ESP32."+Style.RESET_ALL)
+		print(Fore.RED+"Collegare un devboard WiFi Flipper o un chip ESP32 e riprovare"+Style.RESET_ALL)
 		choose_fw()
 	if device=='':
 		return
 	elif device=='303A':
-		print(Fore.BLUE+"You are most likely using a Flipper Zero WiFi Devboard or an ESP32-S2"+Style.RESET_ALL)
+		print(Fore.BLUE+"Molto probabilmente stai usando un Flipper Zero WiFi Devboard o un ESP32-S2"+Style.RESET_ALL)
 	elif device=='10C4':
-		print(Fore.BLUE+"You are most likely using an ESP32-WROOM, an ESP32-S2-WROVER, or an ESP32-S3-WROOM"+Style.RESET_ALL)
+		print(Fore.BLUE+"Molto probabilmente stai usando un ESP32-WROOM, un ESP32-S2-WROVER o un ESP32-S3-WROOM"+Style.RESET_ALL)
 	elif device=='1A86':
-		print(Fore.MAGENTA+"You are most likely using a knock-off ESP32 chip! Success is not guaranteed!"+Style.RESET_ALL)
+		print(Fore.MAGENTA+"Molto probabilmente stai usando un chip ESP32 non ufficiale! Il successo non è garantito!"+Style.RESET_ALL)
 
 	return
 
@@ -73,53 +66,53 @@ def checkforextrabins():
 def choose_fw():
 	choices='''
 //======================================================\\\ 
-|| Options:						||
-|| 1) Flash Marauder on WiFi Devboard or ESP32-S2	||
-|| 2) Save Flipper Blackmagic WiFi settings		||
-|| 3) Flash Flipper Blackmagic				||
-|| 4) Flash Marauder on ESP32-WROOM			||
-|| 5) Flash Marauder on ESP32-S3			||
-|| 6) Update all files					||
-|| 7) Exit						||
+|| Opzioni:						||
+|| 1) Installa Marauder su WiFi Devboard o ESP32-S2	||
+|| 2) Salva Impostazioni WiFi di Flipper Blackmagic 	||
+|| 3) Installa Flipper Blackmagic			||
+|| 4) Installa Marauder su ESP32-WROOM			||
+|| 5) Installa Marauder su ESP32-S3			||
+|| 6) Aggiorna tutti i file				||
+|| 7) Esci						||
 \\\======================================================//
 '''
 	global chip
 	print(choices)
-	fwchoice=int(input("Please enter the number of your choice: "))
+	fwchoice=int(input("Inserisci il numero relativo alla tua scelta: "))
 	if fwchoice==1:
-		print("You have chosen to flash Marauder on a WiFi devboard or ESP32-S2")
+		print("Hai scelto di installare Marauder su WiFi Devboard o ESP32-S2")
 		chip="esp32s2"
 		checkforserialport()
 		flash_esp32marauder()
 	elif fwchoice==2:
-		print("You have chosen to save Flipper Blackmagic WiFi settings")
+		print("Hai scelto di salvare Impostazioni WiFi di Flipper Blackmagic ")
 		chip="esp32s2"
 		checkforserialport()
 		save_flipperbmsettings()
 	elif fwchoice==3:
-		print("You have chosen to flash Flipper Blackmagic")
+		print("Hai scelto di installare Flipper Blackmagic")
 		chip="esp32s2"
 		checkforserialport()
 		flash_flipperbm()
 	elif fwchoice==4:
-		print("You have chosen to flash Marauder onto an ESP32-WROOM")
+		print("Hai scelto di installare Marauder su ESP32-WROOM")
 		chip="esp32"
 		checkforserialport()
 		flash_esp32wroom()
 	elif fwchoice==5:
-		print("You have chosen to flash Marauder onto an ESP32-S3")
+		print("Hai scelto di installare Marauder su ESP32-S3")
 		chip="esp32s3"
 		checkforserialport()
 		flash_esp32s3()
 	elif fwchoice==6:
-		print("You have chosen to update all of the files")
+		print("Hai scelto di aggiornare tutti i file")
 		update_option()
 	elif fwchoice==7:
-		print("You have chosen to exit")
-		print("Exiting!")
+		print("Hai scelto di uscire")
+		print("Uscita in corso!")
 		exit()
 	else:
-		print(Fore.RED+"Invalid option!"+Style.RESET_ALL)
+		print(Fore.RED+"Scelta non valida!"+Style.RESET_ALL)
 		exit()
 	return
 
