@@ -19,7 +19,7 @@ Dare il comando "sudo ./fbt fap_[ID della FAP]" (ad esempio "sudo ./fbt fap_samp
 
 ## Su Windows:
 
-Dare il comando "fbt fap_[ID della FAP]" (ad esempio "fbt fap_sample_apps"). Potrebbe essere necessario avviare il terminale come amministratore.
+Dare il comando "fbt fap_[ID della FAP]" (ad esempio "fbt fap_sample_apps"). Potrebbe essere necessario avviare il terminale come amministratore, e dovete avere python installato.
 
 ## Se tutto è andato bene:
 il terminale darà una conferma e la FAP sarà disponibile nella cartella "build/f7-firmware-D/.extapps".
