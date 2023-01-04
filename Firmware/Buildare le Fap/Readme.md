@@ -3,11 +3,11 @@
 
 - Scaricare il firmware condiviso [qui](https://t.me/flipperzeroitaliafile/47).
 
-- Estrarre il firmware e trovare la cartella che contiene molti file.
+- Estrarre il firmware e trovare la cartella che contiene molti file(vedi [questo file](https://github.com/GioeleGregorini/Flipper-Zero-Italia/blob/2e12485359e3760476508f839c8496a25dee6f83/Firmware/Buildare%20le%20Fap/Cartella.jpg)).
 
 - Inserire i file della FAP in una cartella chiamata "application_user" all'interno del firmware estratto.
 
-- Trovare l'ID della FAP nel file "application.fam", ad esempio "sample_apps". Copiare l'ID perché servirà in seguito.
+- Trovare l'ID della FAP nel file "[application.fam](https://github.com/GioeleGregorini/Flipper-Zero-Italia/blob/2e12485359e3760476508f839c8496a25dee6f83/Firmware/Buildare%20le%20Fap/Application.fam.jpg)", ad esempio "sample_apps". Copiare l'ID perché servirà in seguito.
 
 - Aprire il terminale (su MacOS) o il cmd (su Windows).
 
