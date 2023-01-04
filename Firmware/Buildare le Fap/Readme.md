@@ -15,13 +15,14 @@ Con il comando "cd", posizionarsi nella directory dove sono presenti le cartelle
 
 ## Su MacOS:
 
-Dare il comando "sudo ./fbt fap_[ID della FAP]" (ad esempio "sudo ./fbt fap_sample_apps").
+Dare il comando "sudo ./fbt fap_[ID della FAP]" (ad esempio "sudo ./fbt fap_sample_apps").Potrebbe essere necessario inserire la password del mac.
 
 ## Su Windows:
 
 Dare il comando "fbt fap_[ID della FAP]" (ad esempio "fbt fap_sample_apps"). Potrebbe essere necessario avviare il terminale come amministratore.
 
-Se tutto è andato bene, il terminale darà una conferma e la FAP sarà disponibile nella cartella "build/f7-firmware-D/.extapps".
+## Se tutto è andato bene:
+il terminale darà una conferma e la FAP sarà disponibile nella cartella "build/f7-firmware-D/.extapps".
 
 NOTA: Potrebbe essere necessario rendere visibili i file e le cartelle nascoste:
 
