@@ -24,4 +24,4 @@ Tutorial Come Buildare Fap Sempre Aggiornate: !!lavori in corso!!
 
 - [Firmware Rogue Master](https://github.com/mthrfcknruckus/RogueMaster_flipperzero)
 
-- [Guida Smontaggio IFixIt](https://it.ifixit.com/Smontaggio/Flipper+Zero+Teardown/151455)
+- [Guida Smontaggio iFixIt](https://it.ifixit.com/Smontaggio/Flipper+Zero+Teardown/151455)
