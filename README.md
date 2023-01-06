@@ -23,3 +23,5 @@ Tutorial Come Buildare Fap Sempre Aggiornate: !!lavori in corso!!
 - [Firmware Unleashed](https://github.com/DarkFlippers/unleashed-firmware)
 
 - [Firmware Rogue Master](https://github.com/mthrfcknruckus/RogueMaster_flipperzero)
+
+- [Guida Smontaggio IFixIt](https://it.ifixit.com/Smontaggio/Flipper+Zero+Teardown/151455)
