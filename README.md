@@ -1,6 +1,7 @@
 # Flipper-Zero-Italia
 
-Molti file verranno condivisi nel [mio canale telegram](https://t.me/flipperzeroitaliafile/). Seguitelo per rimanere sempre aggiornati.
+Molti file verranno condivisi nel [mio canale telegram](https://t.me/flipperzeroitaliafile/). 
+Seguitelo per rimanere sempre aggiornati.
 
 ## I tutorial verranno condivisi nel mio canale youtube 
 
