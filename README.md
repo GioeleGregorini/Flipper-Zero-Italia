@@ -15,11 +15,15 @@ Tutorial Come Buildare Fap Sempre Aggiornate: !!lavori in corso!!
 
 - [Documentazione ufficiale](https://docs.flipperzero.one/)
 
+- [Download qFlipper](https://flipperzero.one/update)
+
 - [Canale Youtube di Nicola Selenu](https://www.youtube.com/@NicolaSelenu)
 
 - [Repository di UberGuidoZ](https://github.com/UberGuidoZ/Flipper)
 
 - [Animazioni di Talking Sasquach](https://github.com/skizzophrenic/Talking-Sasquach)
+
+- [Firmware Originale](https://github.com/flipperdevices/flipperzero-firmware)
 
 - [Firmware Unleashed](https://github.com/DarkFlippers/unleashed-firmware)
 
