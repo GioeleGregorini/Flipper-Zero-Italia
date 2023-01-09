@@ -31,4 +31,6 @@ Tutorial Come Buildare Fap Sempre Aggiornate: !!lavori in corso!!
 
 - [Firmware Xtreme](https://github.com/ClaraCrazy/Flipper-Xtreme)
 
+- [Firmware Korai](https://github.com/ankris812/Korai)
+
 - [Guida Smontaggio iFixIt](https://it.ifixit.com/Smontaggio/Flipper+Zero+Teardown/151455)
