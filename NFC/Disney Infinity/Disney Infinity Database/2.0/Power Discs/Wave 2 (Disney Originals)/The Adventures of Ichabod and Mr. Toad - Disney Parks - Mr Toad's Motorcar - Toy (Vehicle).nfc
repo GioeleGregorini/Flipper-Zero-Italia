@@ -1,0 +1,98 @@
+Filetype: Flipper NFC device
+Version: 2
+# Nfc device type can be UID, Mifare Ultralight, Bank card
+Device type: NTAG215
+# UID, ATQA and SAK are common for all formats
+UID: 04 1B D8 94 7B A2 80
+ATQA: 44 00
+SAK: 00
+# Mifare Ultralight specific data
+Signature: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Mifare version: 00 04 04 02 01 00 11 03
+Counter 0: 0
+Tearing 0: 00
+Counter 1: 0
+Tearing 1: 00
+Counter 2: 0
+Tearing 2: 00
+Pages total: 80
+Page 0: 04 1B D8 94
+Page 1: 7B A2 80 89
+Page 2: 44 00 C2 00
+Page 3: 00 00 00 00
+Page 4: 0C 6F 1C F5
+Page 5: C0 B3 AB 6A
+Page 6: B2 0A 0A 13
+Page 7: 60 D4 C6 C6
+Page 8: 00 00 00 00
+Page 9: 00 00 00 00
+Page 10: 00 00 00 00
+Page 11: 00 00 00 00
+Page 12: 00 00 00 00
+Page 13: 00 00 17 87
+Page 14: 8E 00 00 00
+Page 15: 00 00 00 00
+Page 16: 97 86 1F 41
+Page 17: 48 09 1A D3
+Page 18: 90 24 96 FB
+Page 19: 7D 02 C9 9A
+Page 20: 00 00 00 00
+Page 21: 00 00 00 00
+Page 22: 00 00 00 00
+Page 23: 00 00 00 00
+Page 24: 00 00 00 00
+Page 25: 00 00 00 00
+Page 26: 00 00 00 00
+Page 27: 00 00 00 00
+Page 28: 00 00 00 00
+Page 29: 00 00 77 87
+Page 30: 88 00 00 00
+Page 31: 00 00 00 00
+Page 32: 97 86 1F 41
+Page 33: 48 09 1A D3
+Page 34: 90 24 96 FB
+Page 35: 7D 02 C9 9A
+Page 36: 00 00 00 00
+Page 37: 00 00 00 00
+Page 38: 00 00 00 00
+Page 39: 00 00 00 00
+Page 40: 00 00 00 00
+Page 41: 00 00 00 00
+Page 42: 00 00 00 00
+Page 43: 00 00 00 00
+Page 44: 00 00 00 00
+Page 45: 00 00 77 87
+Page 46: 88 00 00 00
+Page 47: 00 00 00 00
+Page 48: 97 86 1F 41
+Page 49: 48 09 1A D3
+Page 50: 90 24 96 FB
+Page 51: 7D 02 C9 9A
+Page 52: 97 86 1F 41
+Page 53: 48 09 1A D3
+Page 54: 90 24 96 FB
+Page 55: 7D 02 C9 9A
+Page 56: 00 00 00 00
+Page 57: 00 00 00 00
+Page 58: 00 00 00 00
+Page 59: 00 00 00 00
+Page 60: 00 00 00 00
+Page 61: 00 00 77 87
+Page 62: 88 00 00 00
+Page 63: 00 00 00 00
+Page 64: 00 00 00 00
+Page 65: 00 00 00 00
+Page 66: 00 00 00 00
+Page 67: 00 00 00 00
+Page 68: 00 00 00 00
+Page 69: 00 00 00 00
+Page 70: 00 00 00 00
+Page 71: 00 00 00 00
+Page 72: 00 00 00 00
+Page 73: 00 00 00 00
+Page 74: 00 00 00 00
+Page 75: 00 00 00 00
+Page 76: 00 00 00 00
+Page 77: 00 00 77 87
+Page 78: 88 00 00 00
+Page 79: 00 00 00 00
