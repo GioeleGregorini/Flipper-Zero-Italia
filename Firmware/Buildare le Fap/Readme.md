@@ -1,7 +1,7 @@
 # Come buildare le FAP
 ## Per buildare una FAP (flipper application) aggiornata alle API 11 e compatibile con tutti i firmware attuali alla loro ultima versione, è necessario seguire i seguenti passi:
 
-- Scaricare il firmware condiviso [qui](https://t.me/flipperzeroitaliafile/47).
+- Scaricare l'ultimo firmware [qui](https://github.com/flipperdevices/flipperzero-firmware).
 
 - Estrarre il firmware e trovare la cartella che contiene molti file(vedi [questo file](https://github.com/GioeleGregorini/Flipper-Zero-Italia/blob/2e12485359e3760476508f839c8496a25dee6f83/Firmware/Buildare%20le%20Fap/Cartella.jpg)).
 
